@@ -1,0 +1,22 @@
+:root {
+    --main-title-color: #ffffff;
+    --main-btn-color: #2196f3;
+    --secondary-title-color: #f5f4fa;
+    --accent-color: #212121;
+    --fourth-title-color: #757575;
+    --fift-title-color: #f5f5f5;
+    --six-title-color: #000000;
+    --primary-color: #2f303a;
+    --border-color: #eeeeee;
+    --secondary-border-color: #afb1b8;
+}
+
+/* Others */
+
+:root {
+    --header-idx: 10;
+    --modal-idx: 100;
+    --menu-idx: 1000;
+    --anim-fast: 250ms ease-out;
+    --anim-our: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}

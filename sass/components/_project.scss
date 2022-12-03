@@ -1,0 +1,44 @@
+.project {
+    padding-bottom: 94px;
+}
+
+.project__title {
+    font-size: 36px;
+    line-height: calc(42 / 36);
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--accent-color);
+}
+
+.project-item {
+    position: relative;
+}
+
+.project__text {
+    display: flex;
+    margin-top: 50px;
+}
+
+.project-item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.project__overlay {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 27px;
+    padding-top: 27px;
+    background-color: rgba(47, 48, 58, 0.8);
+    backdrop-filter: blur(2px);
+}
+
+.project__ovarlay-text {
+    color: var(--main-title-color);
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.03em;
+}
